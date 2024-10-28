@@ -1,0 +1,6 @@
+alembic revision --autogenerate -m "Baseline migration"
+
+alembic stamp head
+
+alembic revision --autogenerate -m "Add new changes"
+alembic upgrade head
